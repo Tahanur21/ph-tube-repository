@@ -21,7 +21,7 @@
         <header class="max-w-screen-2xl border-b border-stone-400">
             <div class="flex justify-between items-center p-8">
                 <div>
-                <img src="assets/Logo.png" alt="_blank">
+                <img class="w-40" src="assets/Logo.png" alt="_blank">
             </div>
             <div>
                 <button class="btn">Sort By View</button>
@@ -32,9 +32,29 @@
             </div>
         </header>
         <!-- main body -->
-         <section id="videos" class="">
-
+         <section id="button" class="flex justify-center items-center gap-4 p-10 ml-30">
+            <!-- button div has been created -->
          </section>
+         <!-- videos body -->
+          <section id="videos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-center">
+
+          </section>
      </main>
+     <!-- modal -->
+      <!-- Open the modal using ID.showModal() method -->
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box">
+    <!-- add something -->
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+     <!-- script -->
+      <script src="script/videos.js"></script>
 </body>
 </html>
